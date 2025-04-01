@@ -1,8 +1,83 @@
-/* Тут пиши основные стили */
+.page {
+    margin: 55px 364px 94px 360px;
+}
+.shapka .menu ul li {
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shapka .menu a:hover {
+    text-decoration: underline;
+}
+
+.page h1 {
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    font-size: 42px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.page h2 {
+    font-size: 34px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
 
 
+
+.page p {
+    font-size: 21px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin-top: 10px;
+    margin-bottom: 43px;
+}
+
+.shapka .menu ul {
+    list-style: none;
+    background-color: rgb(250, 249, 248);
+    border-top-style: solid;
+    border-top-color: rgb(151, 151, 151);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(151, 151, 151);
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+.page code {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 0 3px;
+    font-family: "Courier New", monospace;
+}
+
+#blog{
+    color: red;
+}
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .page {
+        margin: 55px 36px 94px 36px;
+    }
+
+    img  {
+        scale: 0.75;
+    }
+
 }
